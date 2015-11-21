@@ -1,0 +1,100 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>The Teach Meet Timer</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="favicon.ico">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+
+      <div class="container">
+		<div id="timer_container">
+		 <div id = "timer_title">
+        <h1><img src="img/teachmeet_logo_small.png"> Timer</h1>
+			</div>
+			
+			<div id = "timer_input_mins_seconds">
+				<div id = "timer_mins_seconds_outline">
+					Start: 
+					<input type="text" value="06" id="cd_mins" class="cd_input"/> Minutes
+				    <input type="text" value="00" id="cd_seconds" class="cd_input"/> Seconds </br>
+				</div>
+			</div>
+   
+				<div id="timer_controls_wrapper">
+					
+						<div id = "timer_mins_seconds">
+						    <!--<span id="cd_h" class="timer_large">00</span><span class="timer_large">:</span>-->
+						    <span id="cd_m" class="timer_large">00</span><span class="timer_large">:</span>
+						    <span id="cd_s" class="timer_large">00</span>
+						    <!--<span class="timer_large">:</span><span id="cd_ms" class="timer_large">00</span>-->
+						</div>
+						<div id = "timer_controls">
+						    <input type="button" class="btn btn-primary" value="Start" id="cd_start" />
+						    <input type="button" class="btn btn-info" value="Pause" id="cd_pause" />
+						    <input type="button" class="btn btn-danger" value="Stop"  id="cd_stop" />
+						    <input type="button" class="btn btn-warning"value="Reset" id="cd_reset" />
+						</div>
+						<div id = "timer_status">
+						    <!--<span id="cd_status">Idle</span>-->
+						</div>
+					</div>
+
+					<div id = "timer_btn_settings">
+						  <input type="button" class="btn btn-default" value="Settings" id="btn_settings_toggle" />
+					</div>
+					
+					<div id = "timer_settings">
+						Minutes: <input type="text" value="0" id="cd_thresh_amber_mins" class="cd_input"/><br>
+						Amber:  <input type="text" value="60" id="cd_thresh_amber_secs" class="cd_input"/> (Seconds) <br>
+						Red: <input type="text" value="20" id="cd_thresh_red" class="cd_input"/> (Seconds)
+					</div>
+			</div> 
+	
+			
+			<!--End Timer Code-->
+
+        <!--<div id = "about"><p><a class="btn btn-primary btn-sm" href="http://www.letsbeinventive.co.uk" role="button">About</a></p></div>-->
+
+
+      <hr>
+	  <div class = "footer">
+	      <footer>
+	        <p><a href="http://www.letsbeinventive.co.uk">&copy; Stephen Higgins 2015 - Lets be inventive.co.uk</a></p>
+	      </footer>
+  	</div>
+</div>
+    </div> <!-- /container -->        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+      
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+	
+		<script src="js/teachmeet_timer.js"></script>
+    </body>
+</html>

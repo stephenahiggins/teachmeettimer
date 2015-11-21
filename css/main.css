@@ -1,0 +1,116 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+html, body {
+       height: 100%;
+       margin: 0px;
+ }
+
+body {
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+}
+
+
+.container {
+	height: 100%;
+	background: rgb(236, 240, 241);
+}
+div#timer_container {
+
+}
+.footer {
+  text-align: center;
+}
+
+.timer_large {
+ font-size: 25vw;
+}
+
+div#timer_controls_wrapper {
+  text-align: center;
+}
+
+div#timer_title {
+  text-align: center;
+}
+
+div#timer_mins_seconds {
+  text-align: center;
+}
+
+div#timer_controls {
+  display: inline-block;
+
+}
+
+div#timer_mins_seconds_outline {
+  border-radius: 25px;
+  border: 2px solid #939393;
+  padding: 5px;
+  width: 300px;
+  /* height: 150px; */
+  /* left: 50%; */
+  margin-left: auto;
+  margin-right: auto;
+    text-align: center;
+}
+
+div#timer_status {
+  display: inline-block;
+}
+
+div#timer_btn_settings {
+ 	  text-align: center;
+    margin-top: 10px;
+}
+
+div#timer_settings {
+  text-align: center;
+}
+
+div#timer_settings {
+  background: rgb(236, 240, 241);
+}
+
+div#about {
+  text-align: center;
+}
+
+.cd_input{
+	 width: 40px;
+}
+input#cd_mins{
+  width: 30px;
+  text-align: center;
+}
+
+input#cd_seconds {
+  width: 30px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
